@@ -25,3 +25,5 @@ git status: show what files needs to take action
 git add: use to add files from your work directory to stage area, these can helpto determine which files should be committed together
 
 git reset: used to remove files in stage area
+
+git commit -m "comment msg": used to commit things to the repository and with a msg
