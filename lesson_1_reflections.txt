@@ -14,6 +14,10 @@ git config --global color.ui auto
 
 git diff followed by two commit ID: to see the diff between two commit and type q to quit
 
+git diff (followed by no argument): used to compare content in the work directory and stage area
+
+git diff --staged(followed by no argument): used to compare the content in the stage area to the repository
+
 git checkout followed by commit ID:mainly used to go back to one previous verison of your code or go back( to go to any commit point you want go
 
 ls -a: to show the hidden file or directory
@@ -27,3 +31,7 @@ git add: use to add files from your work directory to stage area, these can help
 git reset: used to remove files in stage area
 
 git commit -m "comment msg": used to commit things to the repository and with a msg
+
+git checkout master: used to go back to the latest commit
+
+git reset --hard: discard the changes in work directory and stage area
