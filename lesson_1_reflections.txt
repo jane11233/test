@@ -69,3 +69,18 @@ git remote -v: to see it in more details
 git push origin(the remote repository's local name) master(the name the local repository)
 
 git pull origin(the remote repository's local name) master(the name the local repository): to update information from remote to local
+
+fork: go to the github and click the fork button, then go to the page of your own account, find the url, clone to make it local
+
+add cooperator through github UI setting button
+
+git fetch: used to fetch the remote infor to local without merge. then you can use diff and log to see the update. then you can use git merge to merge the two.
+
+git pull equals to git fetch first and then  git merge
+
+situation: local has change 1 place without push, the github has changed 1 place without pulled.
+
+1, git branch -a
+2, git fetch origin
+3, git diff origin/master master
+4..
