@@ -51,3 +51,17 @@ git show: used to show the difference between a specific commit and its parent c
 git branch -d branch_name: confused about this
 
 git merge always merges all the specified branches into the currently checked out branch, creating a new commit for that branch; git merge will also include the currently checked-out branch in the merged version. So if you have branch1 checked out, and you run git merge branch2 branch3, the merged version will combine branch1 as well as branch2 and branch3
+
+rm -rf /yourpath
+
+if come across a confliction when you merge things: open the files and delete the part conflict or discuss with other person. then commit the resolved version
+
+git push:
+
+git pull:
+
+git remote: to see all the remote git
+
+git remote add remote_name repostory link: ex. git remote add origin(name for local) https://github.com/jane11233/test.git
+
+git remote -v: to see it in more details
