@@ -67,3 +67,5 @@ git remote add remote_name repostory link: ex. git remote add origin(name for lo
 git remote -v: to see it in more details
 
 git push origin(the remote repository's local name) master(the name the local repository)
+
+git pull origin(the remote repository's local name) master(the name the local repository): to update information from remote to local
